@@ -8,7 +8,9 @@ Steam will then find the game files but not download the icons to C:\Program Fil
 
 ## How to use
 Just download the [genicons.ps1](https://raw.githubusercontent.com/tygerfox/steamiconrecovery/main/genicons.ps1) file and place it in the directory with the shortcuts that are missing an icon. (This is probably just you're desktop.)
-Then run the script with powershell.
+Then run the script with powershell. This will download the missing icons and place in the right steam directory.
+
+## Troubleshooting
 If PowerShell refuses to run the script have a look at [this](https://superuser.com/questions/106360/how-to-enable-execution-of-powershell-scripts) forum post to find out how to unlock unsigned PowerShell scripts.
 
 ## How it works
